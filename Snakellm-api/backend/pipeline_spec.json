@@ -1,0 +1,6 @@
+{
+  "pipeline_spec": "mock_output",
+  "prompt": "full api test",
+  "model": null,
+  "pipeline_type": null
+}
