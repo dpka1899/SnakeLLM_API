@@ -73,9 +73,9 @@ def _get_engine():
     sys.path.insert(0, str(engine_dir))
 
     # Import only when task runs (after path injection)
-    from llm.plan_rag import PlanRAG  # noqa: E402
-    from llm.execute_rag import ExecuteRAG  # noqa: E402
-    from llm.inference import SnakeLLMInference  # noqa: E402
+    from snakellm.llm.plan_rag import PlanRAG  # noqa: E402
+    from snakellm.llm.execute_rag import ExecuteRAG  # noqa: E402
+    from snakellm.llm.inference import SnakeLLMInference  # noqa: E402
 
     plan_rag = PlanRAG()
     execute_rag = ExecuteRAG()
