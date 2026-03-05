@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+snakellm.egg-info/PKG-INFO
+snakellm.egg-info/SOURCES.txt
+snakellm.egg-info/dependency_links.txt
+snakellm.egg-info/top_level.txt

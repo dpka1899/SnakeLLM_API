@@ -23,11 +23,14 @@ import re
 from typing import Optional
 from pydantic import ValidationError
 import json_repair
-
-from core.schema import PipelineSpec
-from llm.plan_rag import PlanRAG
-from llm.execute_rag import ExecuteRAG
-from llm.providers import get_provider, LLMProvider
+from snakellm.core.schema import PipelineSpec
+from snakellm.llm.plan_rag import PlanRAG
+from snakellm.llm.execute_rag import ExecuteRAG
+from snakellm.llm.providers import get_provider, LLMProvider
+#from core.schema import PipelineSpec
+#from llm.plan_rag import PlanRAG
+#from llm.execute_rag import ExecuteRAG
+#from llm.providers import get_provider, LLMProvider
 
 log = logging.getLogger(__name__)
 

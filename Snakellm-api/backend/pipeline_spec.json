@@ -1,6 +1,1 @@
-{
-  "pipeline_spec": "mock_output",
-  "prompt": "full api test",
-  "model": null,
-  "pipeline_type": null
-}
+{"detail":"job failed: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYj3GZy2b9jGsBACgMMML'}"}
